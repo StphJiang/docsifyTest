@@ -18,11 +18,10 @@
 Parse input arguements from console by shell, user can control the whole application by several arguements. More details can be shown by argument "-h" or "--help" for help.
 
 ### SEE ALSO
-getopt(3), getopt_long(3)
-[task_ctrl](task_ctrl.md)
+getopt(3), getopt_long(3),[task_ctrl](task_ctrl.md)
 
 
-## `is_log_debug()`
+## <a name="debug">`is_log_debug()`<a>
 
 ### PARAMETERS
 | Parameter | Type | Description |
@@ -38,10 +37,10 @@ getopt(3), getopt_long(3)
 Use this func to decide which log could show in debug mode while don't show any info as usual.
 
 ### SEE ALSO
-[`is_log_verbose()`]()
+[`is_log_verbose()`](#verbose)
 
 
-## `is_log_verbose()`
+## <a name="verbose">`is_log_verbose()`<a>
 
 ### PARAMETERS
 | Parameter | Type | Description |
@@ -57,7 +56,7 @@ Use this func to decide which log could show in debug mode while don't show any 
 Use this func to get more info in verbose mode. 
 
 ### SEE ALSO
-[`is_log_debug()`]()
+[`is_log_debug()`](#debug)
 
 
 ## `get_sensor_mode()`
