@@ -19,6 +19,7 @@ Parse input arguements from console by shell, user can control the whole applica
 
 ### SEE ALSO
 getopt(3), getopt_long(3)
+[task_ctrl](task_ctrl.md)
 
 
 ## `is_log_debug()`
@@ -26,7 +27,7 @@ getopt(3), getopt_long(3)
 ### PARAMETERS
 | Parameter | Type | Description |
 | :--- | :--- | :--- |
-|**``**|`void`|No param|
+|**` `**|`void`|No param|
 
 ### RETURN VALUE
 | Type | Description |
